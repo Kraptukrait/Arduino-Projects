@@ -9,4 +9,5 @@ guardhouse lights up. In addition, the information as to whether the door is ope
 displayed on an LCD.
 
 Task 1: Recreate the project and assemble it as described.
+
 Task 2: Program the project according to the specifications.
