@@ -1,6 +1,7 @@
 # Task for 01_Server-door
 
-Scenario:
+__Scenario:__
+
 The door to a server room is to be monitored. The monitoring
 via a door contact sensor, which in this version is replaced by a push-button.
 replaced by a button. When the door is opened, the button changes its status. The monitoring
