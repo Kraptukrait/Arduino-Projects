@@ -9,6 +9,6 @@ is carried out from a porter's lodge. When the door is open, an LED in the guard
 guardhouse lights up. In addition, the information as to whether the door is open or closed is displayed on an LCD.
 displayed on an LCD.
 
-Task 1: Recreate the project and assemble it as described.
+__Task 1:__ Recreate the project and assemble it as described.
 
-Task 2: Program the project according to the specifications.
+__Task 2:__ Program the project according to the specifications.
