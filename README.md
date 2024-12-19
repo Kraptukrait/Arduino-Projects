@@ -11,6 +11,8 @@ Welcome to this Arduino projects repository - a collection of exciting and chall
 🤝 Getting involved
 📑 License
 
+---
+
 
 📖 Project overview
 
