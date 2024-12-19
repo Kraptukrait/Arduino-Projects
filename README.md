@@ -44,7 +44,7 @@ Whether you’re a beginner or an experienced developer, this repository has som
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/Arduino-Projects
+git clone https://github.com/Kraptukrait/Arduino-Projects
 cd arduino-projects
 ```
 
