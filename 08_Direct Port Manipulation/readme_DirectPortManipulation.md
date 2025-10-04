@@ -47,7 +47,7 @@ DDRB |= 0b00100000; // OR sets only PB5 as output, other bits remain unchanged
 PORTB |= 0b00100000; // OR: only bit5 HIGH, others unchanged
 
 // PB5 LOW
-PORTB &= ~0b00100000; // AND with inverted mask, bit5 LOW, others unchanged
+PORTB &= ~(0b00100000); // AND with inverted mask, bit5 LOW, others unchanged
 ```
 
 ### 4.3 Toggle Pin
@@ -64,14 +64,14 @@ PORTB ^= 0b00100000; // XOR inverts bit5
 PORTB |= 0b00010011;
 
 // PB2=0, PB3=0 (others unchanged)
-PORTB &= ~0b00001100;
+PORTB &= ~(0b00001100);
 ```
 
 ### 4.5 Set Pin as Input with Pull-Up
 
 ```cpp
 // PD2 and PD3 input with Pull-Up
-DDRD &= ~0b00001100; // input: 0
+DDRD &= ~(0b00001100); // input: 0
 PORTD |= 0b00001100; // Pull-Up: 1
 ```
 
@@ -85,7 +85,7 @@ bool state = (PIND & 0b00000100) != 0; // check bit2 PD2
 
 ```cpp
 // Turn all LEDs on PORTB off
-PORTB &= ~0b00111111;
+PORTB &= ~(0b00111111);
 
 // Turn all LEDs on PORTB on
 PORTB |= 0b00111111;
