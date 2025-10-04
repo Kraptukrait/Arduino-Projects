@@ -1,7 +1,9 @@
+/*
 int led1 = 9;
 int led2 = 10;
 int led4 = 11;
 int led8 = 12;
+*/
 
 int counter = 0;
 
