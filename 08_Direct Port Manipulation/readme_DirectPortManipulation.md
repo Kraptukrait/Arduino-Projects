@@ -2,7 +2,9 @@
 
 ## 1. Overview
 
-Direct port manipulation accesses the hardware registers (`PORTx`, `DDRx`, `PINx`) of the ATmega328P. Advantages:
+Direct port manipulation accesses the hardware registers (`PORTx`, `DDRx`, `PINx`) of the ATmega328P. 
+
+Advantages:
 
 * Significantly faster than `digitalWrite()` / `digitalRead()`.
 * Atomic control of multiple pins at once.
